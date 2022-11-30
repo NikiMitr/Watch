@@ -1,0 +1,202 @@
+@font-face{
+	font-family: "League Spartan";
+	src:url("../fonts/LeagueSpartan-Thin.ttf")
+}
+
+@font-face{
+	font-family: "League Spartan-Black";
+	src:url("../fonts/LeagueSpartan-Black.ttf")
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html,body{
+	padding: 0; 
+	margin: 0;
+    color: black;
+}
+header{
+	text-align: center;
+	padding-top: 0px;	
+	background-size: cover;
+	background-position: center bottom;
+    background-color: #F8F8F8;
+}
+
+.wrap{
+	display: flex;
+	flex-direction: row;/*выстраивает в стpочку*/ 
+	justify-content: space-between;/*ростягивает по всей ширине*/
+	align-items: center;/*вырвнивание по вертикали*/
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.btn-blue{
+	border: 3px solid black;
+    color: #fff;
+    font-size: 15pt;
+    width: 160px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    background-color: black;
+    vertical-align: middle;
+}
+.btn-blue:hover{
+	cursor: pointer;/*меняет знак курсора*/
+	background-color: #363636;/*фон кнопки*/
+	border:3px solid #363636;
+}
+
+.text-watch{
+	font-family: "League Spartan-Black";
+	font-style: normal;
+	font-size: 50px;
+	color: #000;
+	font-weight: 400;
+	margin-left: 100px;
+	margin-top: 70px;
+	margin-right: 100px;
+}
+
+.text-watch2{
+	font-family: "League Spartan";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: black;
+	margin-top: 0px;
+
+}
+
+.text-cena{
+	font-family: "League Spartan-Black";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: black;
+	background-color: #fff;
+	padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.a1{
+	display: flex;
+	align-items: center;
+	text-align: left;
+	padding-right: 160px;
+	font-family: "League Spartan";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	margin-bottom: 60px;
+}
+
+.a2{
+	display: flex;
+	align-items: center;
+	font-family: "League Spartan";
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 45px;
+}
+
+.img-group{
+	width: 35%;
+}
+
+.watch{
+	text-align: center;
+	justify-content: center;
+
+}
+
+.popular{
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 186%;
+	text-align: center;
+	color: #000000;
+}
+.text-model{
+	font-family: 'League Spartan-Black';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 112.5%;
+	text-align: center;
+	color: #000000;
+}
+.Son{
+	font-family: 'League Spartan-Black';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 29px;
+	text-align: center;
+	color: #000000;
+}
+.text-watch3{
+	text-align: center;
+	width: 531px;
+	height: 194px;
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 155%;
+	text-align: center;
+	color: #161515;
+	margin: 0 auto;
+}
+.img-group1{
+	width: 25%;
+}
+
+
+.prod{
+	text-align: center;
+	justify-content: center;
+}
+.product{
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 186%;
+	text-align: center;
+	text-transform: capitalize;
+	color: #161515;
+}
+.wwi{
+	width: 515px;
+	height: 231px;
+	font-family: 'League Spartan';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 170%;
+	text-align: center;
+	color: #161515;
+	margin: 0 auto;
+}
+
+.line{
+	width: 200px;
+	margin: 0 auto;
+}
+.mare{
+	color: #BB8B5D;
+}
